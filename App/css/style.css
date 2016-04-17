@@ -169,7 +169,7 @@ body {
 }
 
 #clock.light .alarm{
-	background:url('alarm_light.jpg');
+	background:url('../img/alarm_light.jpg');
 }
 
 #clock.light .display{
