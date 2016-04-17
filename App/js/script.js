@@ -88,5 +88,5 @@ function stop() {
 function lapse2() {
 	var endtime = value;	
 	stop();
-	return value;
+	return endtime;
 }
