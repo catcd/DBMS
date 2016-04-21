@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="css/ionic.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <nav class="controls">
+    <a href="#" class="button start_btn" onClick="start();">Start</a>
+    <a href="#" class="button stop_btn" onClick="stop();">Stop</a>
+  </nav>
+  <div class="stopwatch"></div>
+
+  <div class="left">
+    <div class="result" id="rleft">
+      <ul id="left_list"></ul>
+    </div>
+  </div>
+  <div class="right">
+    <div class="result" id="rright">
+      <ul id="right_list"></ul>
+    </div>
+  </div>
+
+  <div class="circle"></div>
+  <div id="spinner" class="loader hide"></div>
+  <h2 id="redis">Redis</h2>
+  <h3 id="vs">vs</h3>
+  <h2 id="mysql">MySQL</h2>
+  <h1 id="running" class="hide">Redis</h1>
+
+  <script src = "lib/jquery-1.12.3.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
